@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android Testing Projects\\MmQuizmaster\\FB LIBS\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
+        "source": "D:\\Android Testing Projects\\MmQuizmaster\\FB LIBS\\src\\main\\res\\color\\com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android Testing Projects\\MmQuizmaster\\FB LIBS\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_send_button_text_color.xml",
+        "source": "D:\\Android Testing Projects\\MmQuizmaster\\FB LIBS\\src\\main\\res\\color\\com_facebook_send_button_text_color.xml"
+    }
+]

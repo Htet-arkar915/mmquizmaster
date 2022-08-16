@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context="com.team16.um.mmquizmaster.Navigation.Aboutapp">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/abouttool"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/logo"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/loginlogo"
+        android:layout_below="@+id/abouttool"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gp_number"
+        android:text="GroupNumber-UM1716"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/gp_number"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/textabout"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:padding="8dp"
+                android:textSize="15dp"
+                android:scrollbars="vertical"
+                android:background="@drawable/card_bg"
+                android:text="             ကြ်န္ေတာ္တို႕App ေလးကေတာ့ MM Quizmaser ျဖစ္ပါတယ္ ခင္ဗ်ာ။ကြ်န္ေတာ္တို႕ App ရဲ႕ ရည္ရြယ္ခ်က္ကေတာ့ ျမန္မာနိုင္ငံသား တစ္ဦး အေနနွင့္သိသင့္သိထိုက္ေသာ ဗဟုသုတမ်ားကို ေပ်ာ္ရႊင္စြာ  ေလ့လာနိုင္ရန္အတြက္ျဖစ္ပါတယ္။တစ္စံုတစ္ေယာက္က သိခ်င္တဲ့ ဗဟုသုတမ်ားကို သိခ်င္ေသာအခါ စာအုပ္ေတြ ဝယ္ဖတ္ရတယ္အခ်ိန္ေတြကုန္တယ္ သိခ်င္တဲ့ အေၾကာင္းအရာကလည္း ဘယ္စာအုပ္ထဲမွာ ရွိလဲေသခ်ာမသိဘူး။စာဖတ္ ဝါသနာပါတဲ့ သူေတာင္ စာအၾကာၾကီးဖတ္ရရင္ ပ်င္းလာနိုင္ပါတယ္။
+ထိုသို့ ျပႆနာမ်ားကို MM Quizmaster ကေျဖရွင္းေပးနိုင္ပါတယ္။ကိုယ္သိခ်င္တဲ့ အေၾကာင္းအရာမ်ားကို categories ေသခ်ာခြဲထားေသာေၾကာင့္ လြယ္ကူစြာ သိရွိနိုင္ပါတယ္။Game ဆန္ဆန္ျဖစ္သည့္ အတြက္ ပ်င္းစရာ မလိုပါဘူး။ စိန္ေခၚယွဥ္ျပိဳင္မႈမ်ား ပါသည့္အတြက္ လူငယ္ေတြတြက္ စိတ္အားတက္ၾကြေစပါတယ္။ Level မ်ားသတ္မွတ္ေပးထားသည့္အတြက္ ေလ့လာရာတြင္ ပိုမို၍ စိတ္ဝင္စားစြာ ေလ့လာနိုင္ေသာ Appေလးျဖစ္ပါတယ္။MM Quizmaster ကိုသံုးျခင္းအားျဖင့္  ဗဟုသုတမ်ားတိုးပြားလာျပီး ျပည္ပမွ သိသင့္သိထိုက္ေသာ ဗဟုသုတမ်ားကို ေပ်ာ္ရႊင္စြာ သိရွိနိုင္ပါသည္။"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

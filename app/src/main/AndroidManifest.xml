@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.team16.um.mmquizmaster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity
+            android:name=".Startactivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:theme" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Activity.EducationEx"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.River_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.HistoryEx"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ActionGroup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Sakarpone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Handmade_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.BartharYae"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Ahtwehtwe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Nation_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SarSo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.Fighting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightAhtwehtwe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightActionGroup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightEducation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightHandmade"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightSarSo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightNation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightRiver_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightSakarpone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.FightBartharyae"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.Chresult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.AcceptFight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChFightActivity.AcceptResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Navigation.Myprofile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Navigation.Contactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Navigation.Aboutapp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Navigation.Navhelp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Navigation.Leaderboard"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ChFightActivity.User_Profile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ChFightActivity.Accept_profile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Navigation.Leader_Profile"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

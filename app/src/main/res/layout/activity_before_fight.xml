@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team16.um.mmquizmaster.ChFightActivity.FightBartharyae">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/startbtn"
+            android:text="Start"
+            android:layout_marginTop="0.7dp"
+            android:layout_marginLeft="0.5dp"
+            android:textColor="@color/color_default"
+            android:textSize="18dp"
+            android:background="@drawable/button_bg"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bg_relatve1"
+            android:layout_weight="1"
+            android:background="@drawable/wrr"
+            >
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00007d25"
+                app:theme="@style/Toolbartheme"
+                app:titleTextColor="@color/color_default"
+                android:id="@+id/chtoolbar">
+            </android.support.v7.widget.Toolbar>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relative1">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/navheaderback"
+                    android:layout_marginLeft="16dp"
+                    android:id="@+id/chimg"
+                    android:layout_marginTop="105dp"/>
+                <TextView
+                    android:id="@+id/chname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/chimg"
+                    android:textSize="18dp"
+                    android:text="Arkar Junior"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="115dp"
+                    android:textColor="@color/color_default"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:id="@+id/level"
+                    android:layout_below="@+id/chname"
+                    android:text="Level :"
+                    android:layout_toRightOf="@id/chimg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_default"/>
+                <TextView
+                    android:id="@+id/chlevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_toRightOf="@id/level"
+                    android:layout_below="@+id/chname"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_default"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:fitsSystemWindows="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bg_relative2"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/dfg"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relative2">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/navheaderback"
+                    android:layout_marginRight="16dp"
+                    android:id="@+id/acceptimg"
+                    android:layout_marginTop="115dp"/>
+
+
+                <TextView
+                    android:id="@+id/acceptname"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAlignment="textEnd"
+                    android:layout_marginTop="130dp"
+                    android:text="Arkar Junior"
+                    android:textColor="@color/color_default"/>
+                <TextView
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:id="@+id/acceptlevel"
+                    android:textAlignment="textEnd"
+                    android:layout_below="@+id/acceptname"
+                    android:text="Level :"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/color_default"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

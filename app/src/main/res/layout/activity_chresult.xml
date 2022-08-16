@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.team16.um.mmquizmaster.ChFightActivity.Chresult">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Score"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#f1f1f1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:id="@+id/title"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question : 5"
+                android:textSize="25dp"
+                android:textColor="#f1f1f1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/title"
+                android:id="@+id/mainscore"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correct : 3"
+                android:textSize="25dp"
+                android:textColor="#f1f1f1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:id="@+id/yourmark"
+                android:layout_below="@+id/mainscore"/>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/yourmark"
+                android:text="Ok"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:id="@+id/chfinishok"/>
+
+</RelativeLayout>

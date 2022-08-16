@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0067DE</color>
+    <color name="colorPrimaryDark">#0067DE</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="color_default">#ffffff</color>
+    <color name="color_challenge">#037431</color>
+    <!--at active-->
+    <color name="dot1">#1e1e1e</color>
+    <color name="dot2">#1e1e1e</color>
+    <color name="dot3">#1e1e1e</color>
+    <color name="dot4">#1e1e1e</color>
+    <!--at in active-->
+    <color name="indot1">#f1f1f1</color>
+    <color name="indot2">#f1f1f1</color>
+    <color name="indot3">#f1f1f1</color>
+    <color name="indot4">#f1f1f1</color>
+    <array name="color_of_active">
+        <item>@color/dot1</item>
+        <item>@color/dot2</item>
+        <item>@color/dot3</item>
+        <item>@color/dot4</item>
+    </array>
+    <array name="color_of_inactive">
+        <item>@color/indot1</item>
+        <item>@color/indot2</item>
+        <item>@color/indot3</item>
+        <item>@color/indot4</item>
+    </array>
+
+</resources>
